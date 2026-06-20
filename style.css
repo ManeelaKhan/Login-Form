@@ -50,21 +50,19 @@ input[type="password"] {
   padding: 0.5rem;
 }
 
-.toggle {
-  background: none;
-  border: none;
-  color: darkblue;
-  font-weight: 600;
-  position: absolute;
-  right: .75rem;
-  top: 2.50rem;
-  z-index: 9;
-}
 
-.fa {
-  font-size: 2rem;
-}
 
 .btn {
-  margin-top: 1.75rem;
+  position: relative;
+  left: 27%;
+  bottom: -30px;
+  width: 50%;
+  padding: 10px;
+  background-color: darkblue;
+  color: aliceblue;
+  border: none;
+  border-radius: 7px;
+  font-weight: bolder;
+  font-size:initial;
+  cursor: pointer;
 }
